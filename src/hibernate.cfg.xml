@@ -48,5 +48,9 @@ Contributor(s):
     <property name="hibernate.connection.password">03081999Joao@</property>
     <property name="hibernate.show_sql">true</property>
     <property name="hibernate.hbm2ddl.auto">update</property>
+    <mapping class="com.lucianeaguiar.model.Pessoa"/>
+    <mapping class="com.lucianeaguiar.model.Cliente"/>
+    <mapping class="com.lucianeaguiar.model.Usuario"/>
+    <mapping class="com.lucianeaguiar.model.Empresa"/>
   </session-factory>
 </hibernate-configuration>
