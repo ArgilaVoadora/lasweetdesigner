@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
- @Entity @Table
+@Entity @Table
 public class Empresa {
  @Id
  @GeneratedValue(strategy = GenerationType.IDENTITY)

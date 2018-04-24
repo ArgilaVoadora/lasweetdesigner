@@ -11,7 +11,7 @@ import org.hibernate.cfg.Configuration;
  */
 public class Connection {
 
-    private SessionFactory sessionFactory;
+    private SessionFactory sessionFactory = getConnection();
     
     public SessionFactory getConnection(){
         Configuration con = new Configuration().configure();
